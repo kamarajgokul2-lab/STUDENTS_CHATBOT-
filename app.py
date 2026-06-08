@@ -13,7 +13,7 @@ st.write("Ask project ideas, coding doubts, technology suggestions, and more.")
 # Gemini API Key from Streamlit Secrets
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
-model = genai.GenerativeModel("gemini-2.5-flash")
+model = genai.GenerativeModel("gemini-3.5-flash")
 
 # Initialize chat history
 if "messages" not in st.session_state:
